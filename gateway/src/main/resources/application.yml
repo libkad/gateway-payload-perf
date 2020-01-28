@@ -1,0 +1,32 @@
+server:
+  port: 9090
+
+management:
+  security:
+    enabled: false
+  endpoint:
+    shutdown:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+spring:
+  jmx:
+    enabled: false
+  application:
+    name: gateway
+  cloud:
+    gateway:
+      routes:
+      - id: post
+        uri: http://localhost:8080/post
+        predicates:
+          - Method=POST
+          - Path=/post
+      - id: get
+        uri: http://localhost:8080/greeting
+        predicates:
+          - Method=GET
+          - Path=/greeting

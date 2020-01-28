@@ -1,0 +1,178 @@
+{
+   "title": "This is a 5K payload.",
+   "resources":
+   [
+    {
+    "id": "apiMgtApp",
+    "userName": "apiMgtApp",
+    "roles": [
+        "AsmServicesAppIdentity",
+        "AsmServicesGetResourceRole",
+        "FndSec_Federation_Incoming_Exchange",
+        "AsmServicesRenewTokenRole",
+        "FndSec_Federation_Incoming_Renew",
+        "AsmServicesRenewAfterExpiredRole",
+        "AsmServicesValidateTokenRole",
+        "roleA",
+        "AsmServicesIssueTokenRole",
+        "AsmServicesOverrideAudRestrictionRole",
+        "STS-Common"
+    ]
+    },
+    {
+    "id": "apiMgtApp2",
+    "userName": "apiMgtApp2",
+    "roles": [
+        "AsmServicesAppIdentity",
+        "AsmServicesGetResourceRole",
+        "FndSec_Federation_Incoming_Exchange",
+        "AsmServicesRenewTokenRole",
+        "FndSec_Federation_Incoming_Renew",
+        "AsmServicesRenewAfterExpiredRole",
+        "AsmServicesValidateTokenRole",
+        "roleA",
+        "AsmServicesIssueTokenRole",
+        "AsmServicesOverrideAudRestrictionRole",
+        "STS-Common"
+    ]
+    },
+    {
+    "id": "apiMgtApp3",
+    "userName": "apiMgtApp3",
+    "roles": [
+        "AsmServicesAppIdentity",
+        "AsmServicesGetResourceRole",
+        "FndSec_Federation_Incoming_Exchange",
+        "AsmServicesRenewTokenRole",
+        "FndSec_Federation_Incoming_Renew",
+        "AsmServicesRenewAfterExpiredRole",
+        "AsmServicesValidateTokenRole",
+        "roleA",
+        "AsmServicesIssueTokenRole",
+        "AsmServicesOverrideAudRestrictionRole",
+        "STS-Common"
+    ]
+    },
+    {
+    "id": "apiMgtApp4",
+    "userName": "apiMgtApp4",
+    "roles": [
+        "AsmServicesAppIdentity",
+        "AsmServicesGetResourceRole",
+        "FndSec_Federation_Incoming_Exchange",
+        "AsmServicesRenewTokenRole",
+        "FndSec_Federation_Incoming_Renew",
+        "AsmServicesRenewAfterExpiredRole",
+        "AsmServicesValidateTokenRole",
+        "roleA",
+        "AsmServicesIssueTokenRole",
+        "AsmServicesOverrideAudRestrictionRole",
+        "STS-Common"
+    ]
+    },
+    {
+    "id": "apiMgtApp5",
+    "userName": "apiMgtApp5",
+    "roles": [
+        "AsmServicesAppIdentity",
+        "AsmServicesGetResourceRole",
+        "FndSec_Federation_Incoming_Exchange",
+        "AsmServicesRenewTokenRole",
+        "FndSec_Federation_Incoming_Renew",
+        "AsmServicesRenewAfterExpiredRole",
+        "AsmServicesValidateTokenRole",
+        "roleA",
+        "AsmServicesIssueTokenRole",
+        "AsmServicesOverrideAudRestrictionRole",
+        "STS-Common"
+    ]
+    },
+    {
+    "id": "apiMgtApp6",
+    "userName": "apiMgtApp6",
+    "roles": [
+        "AsmServicesAppIdentity",
+        "AsmServicesGetResourceRole",
+        "FndSec_Federation_Incoming_Exchange",
+        "AsmServicesRenewTokenRole",
+        "FndSec_Federation_Incoming_Renew",
+        "AsmServicesRenewAfterExpiredRole",
+        "AsmServicesValidateTokenRole",
+        "roleA",
+        "AsmServicesIssueTokenRole",
+        "AsmServicesOverrideAudRestrictionRole",
+        "STS-Common"
+    ]
+    },
+    {
+    "id": "apiMgtApp7",
+    "userName": "apiMgtApp7",
+    "roles": [
+        "AsmServicesAppIdentity",
+        "AsmServicesGetResourceRole",
+        "FndSec_Federation_Incoming_Exchange",
+        "AsmServicesRenewTokenRole",
+        "FndSec_Federation_Incoming_Renew",
+        "AsmServicesRenewAfterExpiredRole",
+        "AsmServicesValidateTokenRole",
+        "roleA",
+        "AsmServicesIssueTokenRole",
+        "AsmServicesOverrideAudRestrictionRole",
+        "STS-Common"
+    ]
+    },
+    {
+    "id": "apiMgtApp8",
+    "userName": "apiMgtApp8",
+    "roles": [
+        "AsmServicesAppIdentity",
+        "AsmServicesGetResourceRole",
+        "FndSec_Federation_Incoming_Exchange",
+        "AsmServicesRenewTokenRole",
+        "FndSec_Federation_Incoming_Renew",
+        "AsmServicesRenewAfterExpiredRole",
+        "AsmServicesValidateTokenRole",
+        "roleA",
+        "AsmServicesIssueTokenRole",
+        "AsmServicesOverrideAudRestrictionRole",
+        "STS-Common"
+    ]
+    },
+    {
+    "id": "apiMgtApp9",
+    "userName": "apiMgtApp9",
+    "roles": [
+        "AsmServicesAppIdentity",
+        "AsmServicesGetResourceRole",
+        "FndSec_Federation_Incoming_Exchange",
+        "AsmServicesRenewTokenRole",
+        "FndSec_Federation_Incoming_Renew",
+        "AsmServicesRenewAfterExpiredRole",
+        "AsmServicesValidateTokenRole",
+        "roleA",
+        "AsmServicesIssueTokenRole",
+        "AsmServicesOverrideAudRestrictionRole",
+        "STS-Common"
+    ]
+    },
+    {
+    "id": "apiMgtApp10",
+    "userName": "apiMgtApp10",
+    "roles": [
+        "AsmServicesAppIdentity",
+        "AsmServicesGetResourceRole",
+        "FndSec_Federation_Incoming_Exchange",
+        "AsmServicesRenewTokenRole",
+        "FndSec_Federation_Incoming_Renew",
+        "AsmServicesRenewAfterExpiredRole",
+        "AsmServicesValidateTokenRole",
+        "roleA",
+        "AsmServicesIssueTokenRole",
+        "AsmServicesOverrideAudRestrictionRole",
+        "STS-Common"
+    ]
+    }
+   ]
+}
+
+
