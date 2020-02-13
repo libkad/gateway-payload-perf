@@ -1,5 +1,11 @@
 server:
-  port: 9090
+  port: 9443
+  ssl:
+    enabled: true
+    key-store: classpath:server.p12
+    key-store-type: JKS
+    key-store-password: changeit
+    key-alias: gateway
 
 management:
   security:
@@ -19,14 +25,19 @@ spring:
     name: gateway
   cloud:
     gateway:
+      httpclient:
+        ssl:
+#          useInsecureTrustManager: true
+          trustedX509Certificates:
+            - classpath:rootCA.crt
       routes:
       - id: post
-        uri: http://localhost:8080/post
+        uri: https://localhost:7443/post
         predicates:
           - Method=POST
           - Path=/post
       - id: get
-        uri: http://localhost:8080/greeting
+        uri: https://localhost:7443/greeting
         predicates:
           - Method=GET
           - Path=/greeting
