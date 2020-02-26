@@ -41,3 +41,7 @@ spring:
         predicates:
           - Method=GET
           - Path=/greeting
+
+logging:
+  level:
+    io.netty.handler.ssl.OpenSsl: DEBUG

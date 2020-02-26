@@ -1,8 +1,8 @@
 #!/bin/bash
 mvn clean package
 
-cd restapp && mvn spring-boot:run &
-cd gateway && mvn spring-boot:run &
+java -jar gateway/target/gateway-0.0.1-SNAPSHOT.jar &
+java -jar restapp/target/restapp-current-SNAPSHOT.jar &
 sleep 20
 (
   cd gatling-test
